@@ -35,22 +35,33 @@ hr {
     margin: auto;
     width: 40%;
 }
+a {
+    color: rgb(63,168,122); 
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255,255,255); 
+    font-weight: bold;
+}
+a:active, a:visited, a:focus {
+    text-decoration: none;
+}
 </style>
 <body>
 
 <div class="bgimg">
   <div class="middle">
-	<h1>VYBES</h1>
-    <h1>COMING SOON</h1>
+	<h1 style="font-size:80px;">VYBES</h1>
+    <h1 style="font-size:40px;">COMING SOON</h1>
     <hr>
-    <p id="demo" style="font-size:30px"></p><br>
-	<p>Please Take Our Survey <a href="https://www.surveymonkey.com/r/TBC7LFF">Here</a></p>
+    <p id="demo" style="font-size:40px;"></p><br>
+	<p style="font-size:35px;">Please Take Our Survey <a href="https://www.surveymonkey.com/r/TBC7LFF">Here</a></p>
   </div>
 </div>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 1, 2018 23:59:59").getTime();
+var countDownDate = new Date("May 14, 2018 23:59:59").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
